@@ -1,6 +1,6 @@
 <template>
   <div class="detail-view has-header">
-    <banner title="每天看点好内容"></banner>
+    <!-- <banner title="每天看点好内容"></banner> -->
     <template v-if="!showLoading">
       <div class="info">
         <h2>
@@ -47,7 +47,7 @@
           <div v-if="eventItem.content" class="content" v-html="content"></div>
         </div>
       </div>
-      <download-app></download-app>
+      <!-- <download-app></download-app> -->
     </template>
     <loading v-show="showLoading"></loading>
   </div>

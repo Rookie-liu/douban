@@ -10,7 +10,7 @@
     <group title="买买买" :items="group_c">
       <a class="list-link" href="#" slot="more">更多相关小组</a>
     </group>
-    <download-app></download-app>
+    <!-- <download-app></download-app> -->
   </div>
 </template>
 
