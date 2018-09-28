@@ -14,7 +14,7 @@
     </scroller>
     <scroller title="发现好书" type="onlyString" :items="bookTags"></scroller>
     <types></types>
-    <download-app></download-app>
+    <!-- <download-app></download-app> -->
   </div>
 </template>
 

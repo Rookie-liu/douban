@@ -1,12 +1,12 @@
 <template>
   <div class="status has-header">
-    <banner></banner>
+    <!-- <banner></banner> -->
     <!-- <user-bar></user-bar> -->
     <div class="content-list">
       <card mold="quote" v-for="item in items" :key="item"></card>
       <a class="list-link" href="#">显示更多广播</a>
     </div>
-    <download-app></download-app>
+    <!-- <download-app></download-app> -->
   </div>
 </template>
 
