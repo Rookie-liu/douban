@@ -1,6 +1,6 @@
 <template>
   <div class="group-view has-header">
-    <user-bar></user-bar>
+    <!-- <user-bar></user-bar> -->
     <group title="租房找室友" :items="group_a">
       <a class="list-link" href="#" slot="more">更多相关小组</a>
     </group>
