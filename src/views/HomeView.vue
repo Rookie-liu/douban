@@ -1,6 +1,6 @@
 <template>
   <div class="home-view has-header">
-    <button @click="nativeMethod">按钮点击</button>
+    <!-- <button @click="nativeMethod">按钮点击</button> -->
     <sub-nav mold="quickNav"></sub-nav>
     <list mold="thumbnail" :items="events"></list>
     <infinite-loading :on-infinite="onInfinite" ref="infiniteLoading">
